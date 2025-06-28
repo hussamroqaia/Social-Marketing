@@ -7,6 +7,11 @@ html {
   font-size: 16px;
 }
 
+a {
+  color: unset;
+  text-decoration: none;
+}
+
 :root {
   --primary-color: #1c398e;
   --secondary-color: #101828;
@@ -94,7 +99,7 @@ nav svg {
   opacity: 0.5;
 }
 
-main {
+.hero-sec {
   text-align: center;
   padding: 8.4rem 2rem 0 2rem;
   background-color: #0f172a;
@@ -157,6 +162,8 @@ h3 {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  border-radius: 12px;
+  margin-bottom: -130px;
 }
 
 .hero img {
@@ -170,7 +177,7 @@ h3 {
 }
 
 .tools {
-  padding: 80px 0px;
+  padding: 260px 0px;
   background: #fff;
   text-align: center;
 }
@@ -190,6 +197,7 @@ h3 {
   font-size: var(--text-xl);
   line-height: 33px;
 }
+
 
 .features {
   display: flex;
@@ -375,6 +383,7 @@ h3 {
 .card-footer {
   padding: 30px 30px;
   background-color: #f3f4f6;
+  border-radius: 0 0 10px 10px;
 }
 
 .btn-2 {
